@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class regaTest {
+public class RegistrationTest {
     private String generatingDate(int addDays, String pattern) {
         return LocalDate.now().plusDays(addDays).format(DateTimeFormatter.ofPattern(pattern));
     }
